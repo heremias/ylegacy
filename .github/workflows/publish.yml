@@ -1,6 +1,6 @@
 # Force redeploy
 
-name: "y-base"
+name: "ylegacy"
 
 on:
   push:
