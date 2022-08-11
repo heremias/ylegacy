@@ -1,4 +1,4 @@
-FROM php:8.1.8-apache
+FROM php:7.4.30-apache
 
 # Setting doc root
 ARG docroot=/var/www/drupal/web
