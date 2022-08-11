@@ -104,7 +104,7 @@ ENV DOCROOT=/var/www/drupal/web
 COPY build.sh /var/www
 RUN chmod 777 build.sh
 
-COPY .htaccess /var/www
+#COPY .htaccess /var/www
 
 # node & yarn
 RUN apt-get update && apt-get install -y nodejs npm
